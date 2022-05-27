@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,700&display=swap" rel="stylesheet">
+    <title>Churrascomêtro</title>
+</head>
+<body>
+    <header>
+        <h1 class="title"> Saiba a quantidade <br> necessária para o seu churrasco!</h1>
+    </header>
+    <div class="container">
+        <h1>Churrascomêtro</h1>
+            <h4 class="qdtadultos">Quantidade de adultos</h4>
+        <input id="adultos" name="adultos" type="number" placeholder="Adultos">
+            <h4 class="qdtcriancas">Quantidade de crianças</h4>
+        <input id="criancas" name="criancas" type="number" placeholder="Crianças">
+            <h4 class="duracao">Duração do churrasco</h4>
+        <input id="duracao" name="duracao" type="number" placeholder="Duração (h)">
+        <button onclick="calcular()" id="botao">Calcular</button>
+
+        <div id="resultado">
+
+        </div>
+    </div>
+
+
+
+
+
+    <script src="script.js"></script>    
+</body>
+</html>
