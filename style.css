@@ -39,7 +39,7 @@ body{
     margin-bottom: 90px;
     background-position: 30% 45%;
     background-size: cover;
-    background-image: url("../images/Background1.jpg");
+    background-image: url(".../images/Background1.jpg");
 }
 
 h1{
