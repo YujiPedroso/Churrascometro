@@ -37,7 +37,7 @@ body{
     margin-bottom: 90px;
     background-position: 30% 45%;
     background-size: cover;
-    background-image: url("../images/imagem-fundo.jpg");
+    background-image: url(".../images/imagem-fundo.jpg");
 }
 
 h1{
